@@ -1,0 +1,717 @@
+.text
+{
+  color: #08184a;
+  text-align: left;
+  font-family: "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.text2
+{
+  color: #08184a;
+  text-align: left;
+  font-family: "Comic Sans MS", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  cursor: default;
+}
+
+.text2 a:link
+{
+  cursor: default;
+  text-decoration: none;
+  font-weight: bold;
+  color: #08184a;
+}
+
+.text2 a:visited
+{
+  cursor:default;
+  text-decoration: none;
+  font-weight: bold;
+  color: #08184a;
+}
+
+.text2 a:hover
+{
+  cursor: default;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #08184a;
+}
+
+.text2 a:active
+{
+  cursor: default;
+  text-decoration: none;
+  font-weight: bold;
+  color: #08184a;
+}
+
+.text3
+{
+  color: #ffffff;
+  text-align: left;
+  font-family: "Comic Sans MS", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: default;
+}
+
+.text3 a:link
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+.text3 a:visited
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+.text3 a:hover
+{
+  cursor:default;
+  text-decoration:underline;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+.text3 a:active
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+.text4
+{
+  color:#000000;
+  text-align:left;
+  font-family:"Times New Roman";
+  font-weight:normal;
+  font-size:14px;
+  line-height:21px;
+  cursor:default;
+}
+
+.text4 a:link
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:bold;
+  color:#000000;
+}
+
+.text4 a:visited
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:bold;
+  color:#000000;
+}
+
+.text4 a:hover
+{
+  cursor:default;
+  text-decoration:underline;
+  font-weight:bold;
+  color:#000000;
+}
+
+.text4 a:active
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:bold;
+  color:#000000;
+}
+
+.text5
+{
+  font-family:"Verdana";
+  line-height:18px;
+  font-style:normal;
+  font-weight:normal;
+  font-size:12px;
+}
+
+.text5 a:link
+{
+  text-decoration:none;
+  color:#08184a;
+  cursor:default;
+}
+
+.text5 a:visited
+{
+  text-decoration:none;
+  color:#08184a;
+  cursor:default;
+}
+
+.text5 a:hover
+{
+  cursor:default;
+  text-decoration:none;
+  color:#0000dd;
+  line-height:14px;
+  border-style:solid;
+  border-width:0px 0px 1px 0px;
+  border-color:#0000dd;
+  background-color:#ffff66;
+}
+
+.text5 a:active
+{
+  text-decoration:none;
+  color:#08184a;
+  cursor:default;
+}
+
+.text6 {
+  font-family:"Verdana";
+  font-style:normal;
+  font-weight:normal;
+  font-size:9px;
+}
+
+.text6 a:link {
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text6 a:visited {
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text6 a:hover {
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.text6 a:active {
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text7 {
+  color:#770000;
+  font-family:"Verdana";
+  font-style:normal;
+  font-weight:normal;
+  font-size:9px;
+}
+
+.text7 a:link {
+  color:#770000;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text7 a:visited {
+  color:#770000;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text7 a:hover {
+  color:#770000;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.text7 a:active {
+  color:#770000;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text8 {
+  color:#000077;
+  font-family:"Verdana";
+  font-style:normal;
+  font-weight:normal;
+  font-size:9px;
+}
+
+.text8 a:link {
+  color:#000077;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text8 a:visited {
+  color:#000077;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text8 a:hover {
+  color:#000077;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.text8 a:active {
+  color:#000077;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text9 {
+  color:#007700;
+  font-family:"Verdana";
+  font-style:normal;
+  font-weight:normal;
+  font-size:9px;
+}
+
+.text9 a:link {
+  color:#007700;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text9 a:visited {
+  color:#007700;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text9 a:hover {
+  color:#007700;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.text9 a:active {
+  color:#007700;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text10 {
+  color:#EE6600;
+  font-family:"Verdana";
+  font-style:normal;
+  font-weight:normal;
+  font-size:9px;
+}
+
+.text10 a:link {
+  color:#EE6600;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text10 a:visited {
+  color:#EE6600;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text10 a:hover {
+  color:#EE6600;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.text10 a:active {
+  color:#EE6600;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text11 {
+  color:#BB00BB;
+  font-family:"Verdana";
+  font-style:normal;
+  font-weight:normal;
+  font-size:9px;
+}
+
+.text11 a:link {
+  color:#BB00BB;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text11 a:visited {
+  color:#BB00BB;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.text11 a:hover {
+  color:#BB00BB;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.text11 a:active {
+  color:#BB00BB;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+
+.bgset1
+{
+  position:absolute;
+  top:100px;
+  left:230px;
+  width:504px;
+  height:504px;
+  background-image:url(images/bgcontent1.png);
+}
+
+.bgset1scroll
+{
+  position:absolute;
+  top:2px;
+  left:2px;
+  width:500px;
+  height:500px;
+  overflow:auto;
+}
+
+.mouse_over
+{
+  cursor:pointer;
+}
+
+.bgset2
+{
+  position:absolute;
+  top:100px;
+  left:230px;
+  width:200px;
+  height:200px;
+}
+
+.contentset1
+{
+  margin:22px 0px 0px 0px;
+  overflow:hidden;
+  background-color:#f3f3f3;
+  border-width:0px 2px 2px 2px;
+  border-style:solid;
+  border-color:#0000dd;
+}
+
+.contentset2
+{
+  margin:0px 0px 0px 0px;
+  overflow:hidden;
+  background-color:#f3f3f3;
+  border-width:2px 2px 2px 2px;
+  border-style:solid;
+  border-color:#0000dd;
+}
+
+.form1
+{
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:normal;
+  color:#081a4e;
+}
+
+.form1 input, button, select
+{
+  margin:2px 2px 2px 2px;
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:normal;
+  color:#081a4e;
+}
+
+.tab table
+{
+  padding:0px;
+  margin:0px;
+  background-color:#ffffff;
+  border-width:0px 0px 1px 0px;
+  border-style:solid;
+  border-color:#99aaee;
+}
+
+.tab .tabhead
+{
+  background-color:#99aaee;
+}
+
+.tab table tr
+{
+  padding:20px;
+  margin:10px;
+  text-align:center;
+}
+
+.tab table tr td
+{
+  border-width:0px 1px 0px 0px;
+  border-style:solid;
+  border-color:#99aaee;
+  margin:20px;
+  padding:0px 5px 0px 5px;
+}
+
+.tab .borrow
+{
+  border-width:0px 0px 0px 0px;
+  border-style:solid;
+  border-color:#99aaee;
+}
+
+.forum
+{
+  background-color:#4965b8;
+  border:2px solid #0000dd;
+  padding:10px;
+  width:600px;
+}
+
+.forum table
+{
+  color:#ffffff;
+  font-size:10px;
+}
+
+.forum table thead tr th
+{
+  text-align:center;
+  vertical-align:middle;
+  height:24px;
+}
+
+.forum table tr td
+{
+  color:black;
+  background-color:#99aaee;
+  padding:3px;
+  text-align:center;
+  font-size:10px;
+}
+
+.forum .dark
+{
+  background-color:#8f99ee;
+}
+
+.forum .left
+{
+  text-align:left;
+}
+
+.forum a:link
+{
+  cursor:pointer;
+  text-decoration:underline;
+  color:#000000;
+}
+
+.forum a:visited
+{
+  cursor:pointer;
+  text-decoration:underline;
+  font-weight:normal;
+  color:#000000;
+}
+
+.forum a:hover
+{
+  cursor:pointer;
+  text-decoration:underline;
+  font-weight:normal;
+  color:#ffff55;
+  border:0;
+  background-color:#99aaee;
+}
+
+.forum a:active
+{
+  cursor:pointer;
+  text-decoration:underline;
+  font-weight:normal;
+  color:#000000;
+}
+
+.button
+{
+  cursor:pointer;
+  font-size:12px;
+  color:#222299;
+  text-align:center;
+  background-color:#99aaee;
+  height:16px;
+  width:90px;
+}
+
+.rider
+{
+  color:#1111bb;
+  font-family: "Verdana";
+  font-size: 12px;
+  font-weight: normal;
+  margin: 4px 0px 0px 0px;
+}
+
+.rider a:link
+{
+  cursor:default;
+  text-align:center;
+  text-decoration:none;
+  font-weight:normal;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #999999;
+  background-color:#cccccc;
+  padding: 4px 4px 4px 4px;
+  margin: 0px 0px 0px 0px;
+}
+
+.rider a:visited
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:normal;
+  color:#1111bb;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #999999;
+  background-color:#cccccc;
+  padding: 4px 4px 4px 4px;
+  margin: 0px 0px 0px 0px;
+}
+
+.rider a:hover
+{
+  cursor:default;
+  text-decoration:none;
+  border-width: 2px 2px 2px 2px;
+  background-color:#777777;
+  padding: 3px 3px 3px 3px;
+  color:#1111bb;
+  margin: 0px 0px 0px 0px;
+}
+
+.rider a:active
+{
+  cursor:default;
+  text-decoration:none;
+  font-weight:normal;
+  color:#1111bb;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #999999;
+  background-color:#cccccc;
+  padding: 4px 4px 4px 4px;
+  margin: 0px 0px 0px 0px;
+}
+
+.browser
+{
+  font-family: "Verdana";
+  font-weight: normal;
+  font-size: 9px;
+  background-color: #e3e3e3;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #99aaee;
+  margin: 0.3em 0em 0em 0em;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.browser .button
+{
+  background-color: #f3f3f3;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #999999;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.browser .itext
+{
+  background-color: #f3f3f3;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #999999;
+  font-size: 9px;
+}
+
+.browser .itextm
+{
+  background-color: #f3f3f3;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #999999;
+  font-size: 9px;
+  text-align: center;
+}
+
+.browser .itext2
+{
+  background-color:#f3f3f3;
+  font-size:9px;
+  text-align:center;
+}
+
+.browser .itext3
+{
+  background-color:#f3f3f3;
+  font-size:8px;
+  text-align:center;
+}
+
+.f8
+{
+  font-size: 8px;
+}
+
+.f9
+{
+  font-size: 9px;
+}
+
+.f10
+{
+  font-size: 10px;
+}
+
+.f12
+{
+  font-size: 12px;
+}
+
+.browser .br
+{
+  border-color: #990000;
+}
+
+.nomp
+{
+  margin: 4px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.halfp
+{
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.quadp
+{
+  padding: 0.25em 0.25em 0.25em 0.25em;
+}

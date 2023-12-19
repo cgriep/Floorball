@@ -1,0 +1,151 @@
+#table
+{
+  position:relative;
+  left:0px;
+  border: 1px solid #999999;
+  background-color:#ffffff;
+  width:860px;
+  height:450px;
+  font-size:9px;
+  padding:20px 20px 20px 20px;
+  text-align:left;
+  overflow:auto;
+  z-index:10;
+}
+
+#legend
+{
+  position:absolute;
+  left:450px;
+  top:26px;
+  border: 1px solid #999999;
+  border-width: 1px 0px 1px 1px;
+  background-color:#ffffff;
+  font-size:8px;
+  padding:5px 20px 5px 5px;
+  text-align:left;
+  z-index:11;
+}
+
+#legend2
+{
+  position:absolute;
+  left:525px;
+  top:26px;
+  border: 1px solid #999999;
+  border-width: 1px 1px 1px 0px;
+  background-color:#ffffff;
+  font-size:8px;
+  padding:5px 5px 5px 15px;
+  text-align:left;
+  z-index:9;
+}
+
+.werbung
+{
+  width:200px;
+  height:130px;
+  background-color:#999999;
+  color:#ffffff;
+  padding:20px 0px 0px 0px;
+  text-align:center;
+}
+
+#w1
+{
+  position:absolute;
+  top:10px;
+  left:650px;
+}
+
+#w2
+{
+  position:absolute;
+  top:170px;
+  left:650px;
+}
+
+#w3
+{
+  position:absolute;
+  top:330px;
+  left:650px;
+}
+
+.link:hover
+{
+  background-color:#babaff;
+}
+
+.noclass
+{
+}
+
+.statistik
+{
+  width:600px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border: 0px solid #444444;
+  border-width:1px 0px 1px 0px;
+  background-color:#ffffff;
+  color:#171717;
+  margin:15px 0px 0px 0px;
+}
+
+.statistik th
+{
+  padding: 6px 5px 6px 5px;
+  border: 0px solid #444444;
+  border-width:1px 0px 1px 0px;
+  background-color:#ffffff;
+  color:#444444;
+  text-align: center;
+}
+
+.statistik td
+{
+  padding: 5px 6px 5px 6px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  border:0 solid #444444;
+  vertical-align:top;
+}
+
+.statistik .colored
+{
+  background-color:#ffffff;
+}
+
+.statistik .left
+{
+  text-align: left;
+}
+
+.statistik .right
+{
+  text-align: right;
+}
+
+.statistik .nob
+{
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.statistik .line_l
+{
+  border-left-width: 1px;
+}
+
+.statistik .np
+{
+  padding: 6px 0px 6px 0px;
+}
+
+.game_report
+{
+  text-align:left;
+  background-color:#3d1122;
+  width:50em;
+}
