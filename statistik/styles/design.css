@@ -1,0 +1,366 @@
+/* StyleSheet fuer das Saisonverwaltungssystem */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  border: none;
+}
+
+/* Basis Elemente */
+
+body {
+
+  color: #444444;
+  font-size: 14px;
+  font-family: Verdana, Arial, sans-serif;
+  padding-bottom: 40px;
+background:url(../images/bg_body.gif);
+  background-color: #cccccc;
+background-position:left top;
+background-repeat:repeat-x;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 310px;
+  font-size: 40px;
+  font-family: Palatino, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+a:hover {
+  background-color: #F0F0F0;
+  color: black;
+}
+
+
+/* ID - Definitionen */
+
+div#container {
+  background-color: #ffffff;
+  position: relative;
+  margin: 0px auto 0px auto;
+  padding: 15px;
+  width: 945px;
+}
+
+div#kopfzeile {
+  position: relative;
+  width: 945px;
+  height:110px;
+  display: table-cell;
+  font-size: 35px;
+  line-height: 80px;
+}
+
+a#logo_header {
+  background: none;
+  float: left;
+  margin: 5px 5px;
+}
+
+img#sm_logo {
+  position: absolute;
+  top: 5px;
+  left: 348px;
+}
+
+div#status {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  padding: 4px;
+  border: 1px solid black;
+  width: 170px;
+  height: 60px;
+  background-color: #F2F2F2;
+  font-size: 10px;
+  line-height: 1.7em;
+  text-align: right;
+}
+
+div#status input {
+  font-size: 11px;
+  margin: 2px;
+}
+
+div#menue_rahmen {
+  position: relative;
+  background:url("../images/bg_menu.gif") left top no-repeat;
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  font-size: 12px;
+  z-index: 20;
+}
+
+ul#menue_links {
+  list-style: none outside;
+  margin-left: 4px;
+}
+
+ul#menue_links li {
+  float: left;
+  position: relative;
+  margin-left: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 21;
+}
+
+ul#menue_links li a {
+font-weight:bold;
+color:#ffffff;
+background-color:inherit;
+}
+
+ul#menue_rechts {
+  list-style: none outside;
+  margin-right: 35px;
+}
+
+ul#menue_rechts li {
+  float: right;
+  position: relative;
+  margin-left: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 21;
+}
+
+ul#menue_links a:link,
+ul#menue_links a:visited,
+ul#menue_rechts a:link,
+ul#menue_rechts a:visited {
+}
+
+ul#menue_links a:hover,
+ul#menue_links a:active,
+ul#menue_links a:hover,
+ul#menue_links a:active {
+}
+
+/* Anfang Untermenue */
+ul#menue_links li ul,
+ul#menue_rechts li ul {
+  background-color: #EEEEEE;
+  color: #000000;
+  position: absolute;
+  top: 1.6em;
+  left: 0px;
+  padding: 3px 5px 3px 5px;
+  text-align: left;
+  visibility: hidden;
+  z-index: 30;
+  list-style: none outside;
+  border: solid 1px #232323;
+}
+
+ul#menue_links li ul li,
+ul#menue_rechts li ul li {
+  float: none;
+  list-style: none;
+  white-space: nowrap;
+}
+
+ul#menue_links li ul li a,
+ul#menue_rechts li ul li a {
+font-weight:normal;
+color: #444444;
+}
+
+ul#menue_links li ul li a:hover,
+ul#menue_rechts li ul li a:hover,
+ul#menue_links li ul li a:active,
+ul#menue_rechts li ul li a:active {
+  background-color: #ffffff;
+}
+/* Ende Untermenue */
+
+
+div#inhalt {
+  width: 650px;
+  min-height: 310px;
+  text-align: center;
+  padding-top:15px;
+  float:left;
+}
+
+div#sponsoren {
+width: 280px;
+padding-top:15px;
+float:right;
+}
+
+div#sponsoren img {
+margin-bottom:15px;
+}
+
+
+div#iframe {
+  background-color: #E9E9E9;
+  position: relative;
+}
+
+div#fusszeile {
+color:#ffffff;
+background-color:inherit;
+  background:url("../images/bg_footer.gif") left top no-repeat;
+  position: relative;
+  width: 925px;
+  padding: 5px 10px 0px 10px;
+  height: 26px;
+  font-size: 12px;
+  text-align: center;
+  clear: both;
+}
+
+div#fusszeile a {
+	color:#ffffff;
+	background-color:inherit;
+}
+
+div#fusszeile a:hover {
+	color:#ffffff;
+	background-color:inherit;
+	text-decoration:underline;
+}
+
+.generic-form {
+  border: 1px solid #777777;
+  background-color: #eeeeee;
+  overflow:auto;
+}
+
+.generic-list {
+  border: 1px solid #777777;
+  background-color: #ffffff;
+  padding:0.5em 0em 0em 0em;
+}
+
+.generic-list {
+  padding:0em 0em 0em 0em;
+}
+
+.generic-button {
+  border: 1px solid #777777;
+  background: url(../images/button_bg.gif) repeat-x top left;
+  background-color: #bebebe;
+  margin:0.2em;
+  color: #222222;
+  font-size: 0.93em;
+}
+
+.generic-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.generic-m-button {
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #777777;
+  background: url(../images/button_bg.gif) repeat-x top left;
+  background-color: #bebebe;
+  margin:0.2em;
+  color: #222222;
+  font-size: 0.93em;
+}
+
+.generic-m-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.generic-t1-button {
+  border-style: none;
+  background-color: #e4e7eb;
+  margin:0.2em;
+  color: #222222;
+  font-size: 0.93em;
+}
+
+.generic-t1-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.generic-t2-button {
+  border-style: none;
+  background-color: #e0e3e8;
+  margin:0.2em;
+  color: #222222;
+  font-size: 0.93em;
+}
+
+.generic-t2-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.generic-text {
+  border: 1px solid #777777;
+  background-color: #ffffff;
+  padding:0em;
+  color: #222222;
+  font-size: 1em;
+}
+
+.generic-select {
+  border: 1px solid #777777;
+  background-color: #ffffff;
+  padding:0em;
+  color: #222222;
+  font-size: 1em;
+}
+
+.generic-option {
+  background-color: #eeeeee;
+  color: #222222;
+  font-size: 1em;
+}
+
+.generic-check-table {
+  background-color: #eeeeee;
+  color: #222222;
+  font-size: 0.8em;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.generic-check-table-r1 {
+  background-color: #f0f0f0;
+}
+
+.generic-check-table-r2 {
+  background-color: #cccccc;
+}
+
+.generic-check-table-cell {
+  padding: 3px 8px 3px 8px;
+  border-width: 0px 0px 0px 0px;
+  border-color: #444444;
+  border-style: solid;
+  text-align: left;
+}
+
+#save_widget {
+  position: fixed;
+  top: 200px;
+  left: 25%;
+  width: 50%;
+  border: 2px solid #4444bb;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px 5px 25px 5px;
+  visibility: hidden;
+}
+/* CLASS - Definitionen */
